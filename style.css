@@ -1,1 +1,203 @@
-Hello Me
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Sofia', cursive;
+}
+
+a:link {
+  color: #8AB471;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: #8AB471;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c8e6f5;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #c8e6f5;
+  background-color: #993333;
+  text-decoration: none;
+}
+
+.landing-bg {
+  background-image: url('../images/Hand2.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Sofia', cursive;
+  font-weight: normal;
+  z-index: -1;
+}
+
+.div-landing {
+  position: relative;
+  width: 45%;
+  padding-top: 20%;
+  padding-bottom: 25%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.5rem;
+  z-index: 0;
+  align-content: center;
+}
+
+.fa {
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+  color: #c8e6f5;
+}
+
+.container {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1.5rem;
+  align-content: center;
+}
+
+.img-lfloat {
+  position: relative;
+  top: 40%;
+  float: left;
+  margin-right: 5rem;
+  border-radius: 50%;
+  border: 5px white solid;
+  width: 250px;
+}
+
+.bg-circle {
+  position: absolute;
+  left: -5%;
+  top: 10%;
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color: #c8e6f5;
+  border-radius: 50%;
+}
+
+#tempTat {
+  position: absolute;
+  text-align: left;
+  top: 35%;
+}
+
+#tempTatImg {
+  position: absolute;
+  display: block;
+  max-width: 80%;
+  height: auto;
+  right: 0;
+  top: 10%;
+  z-index: -1;
+}
+
+.contactMe {
+  position: relative;
+  width: 45%;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  align-content: center;
+  background: #f2eee0;
+}
+
+.contactMe-grid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-auto-rows: minmax(50px, auto);
+  margin: 0 auto;
+  color: #5e0a0a;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+input[type=text] {
+  position: absolute;
+}
+
+input[type=text]:focus {
+  width: 100%;
+  border: 2px solid #5e0a0a;
+}
+
+textarea[type=text] {
+  width: 15em;
+  height: 100%;
+  box-sizing: border-box;
+  border: 2px solid #5e0a0a;
+  overflow: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  resize: none;
+}
+
+#contact-form {
+  position: absolute;
+  font-size: 20px;
+}
+
+.form-control {
+  width: 100%;
+  background: transparent;
+  border: 1px;
+}
+
+.dots {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+.round-button {
+  border: none;
+  color: #8AB471;
+  background-color: #5e0a0a;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  margin-left: 1.5em;
+  width: 6rem;
+  height: 2rem
+}
+
+@media (max-width: 1028px) {}
